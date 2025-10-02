@@ -1,4 +1,4 @@
-const merge = (
+export const merge = (
   collection_1: number[],
   collection_2: number[],
   collection_3: number[]
@@ -42,4 +42,4 @@ const arrange = (arr1: number[], arr2: number[]): number[] => {
   return result;
 };
 
-module.exports = { merge };
+
