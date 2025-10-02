@@ -58,6 +58,25 @@ npm test
 
 ```
 
+## Run Example
+ 
+คอมไพล์และรันตัวอย่างใน src/index.ts:
+```
+npm start
+```
+## Usage
+ 
+ตัวอย่างการใช้งาน:
+```typescript
+import { merge3Arrays } from "./src/merge_3_arrays.js"; // ใช้ .js เมื่อรันจาก dist
+ 
+const array1 = [1, 4, 7];          // ascending
+const array2 = [2, 5, 8];          // ascending
+const array3 = [9, 6, 3];          // descending
+ 
+const merged = merge3Arrays(array1, array2, array3);
+console.log(merged); // [1, 2, 3, 4, 5, 6, 7, 8, 9]
+```
 
 ## Important Note
 
