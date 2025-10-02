@@ -1,29 +1,4 @@
-# Ignore compiled JavaScript files and sourcemaps
-*.js
-*.jsx
-*.js.map
-*.jsx.map
-
-# Ignore TypeScript declaration files (if generated and not intended for source control)
-*.d.ts
-
-# Ignore Node.js module dependencies
 node_modules/
-
-# Ignore build output directories (common names)
 dist/
 build/
 out/
-
-# Ignore log files
-*.log
-
-# Ignore IDE/editor specific files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# Ignore OS-specific files
-.DS_Store
-Thumbs.db
